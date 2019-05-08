@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: do-kubernetes-sample-app
-          image: dockerhub-username/do-kubernetes-sample-app:latest
+          image: rajeshvirdi/do-kubernetes-sample-app:latest
           ports:
             - containerPort: 80
               name: http
